@@ -1,0 +1,230 @@
+body,
+html {
+  overflow: hidden;
+  background-color: #888;
+}
+/* Hide scrollbar but allow scrolling */
+.main::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar width */
+  background: transparent; /* Optional: Make the background transparent */
+}
+
+/* Optional: Style the scrollbar track and thumb */
+.main::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.main1 {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+
+#results {
+  height: 400px;
+  width: 250px;
+  color: green;
+  margin: 15px;
+}
+
+.outer {
+  margin: 25px;
+  height: 800px;
+  width: 800px;
+  padding: 20px;
+  align-self: center;
+  justify-self: center;
+  background-color: black;
+}
+
+.main {
+  border: 3px solid white;
+  height: 550px;
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  overflow: auto;
+  justify-items: center;
+  justify-self: center;
+}
+
+.gamestr {
+  white-space: pre-line;
+  color: green;
+}
+@font-face {
+  font-family: "MONSTER";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/MonsterFriendFore.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Hide scrollbar but allow scrolling */
+.main::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar width */
+  background: transparent; /* Optional: Make the background transparent */
+}
+
+/* Optional: Style the scrollbar track and thumb */
+.main::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.combactparser {
+  font-weight: 100;
+  font-family: "MONSTER";
+  visibility: hidden;
+  border: 2px solid;
+  height: 500px;
+  width: 490px;
+  margin: 20px;
+  background-color: seagreen;
+}
+
+.upperside {
+  height: 340px;
+  width: 480px;
+  margin: 3px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.lowerside {
+  height: 150px;
+  width: 480px;
+  margin: 3px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.enmeyglass {
+  height: 320px;
+  width: 450px;
+  margin: 5px;
+  background-color: black;
+  border: white solid 3px;
+  display: flex;
+  flex-direction: column;
+}
+.enmeyicon {
+  color: green;
+  margin: 10px;
+}
+.enmeyinfo {
+  margin: 10px;
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infotext {
+  font-size: small;
+  color: green;
+}
+
+.log {
+  font-size: small;
+  font-weight: 300;
+  height: 320px;
+  width: 200px;
+  margin: 5px;
+  background-color: black;
+  border: white solid 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  overflow: hidden;
+}
+
+.inv {
+  justify-content: space-between;
+  height: 135px;
+  width: 300px;
+  margin: 5px;
+  font-size: small;
+  background-color: black;
+  border: white solid 3px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  display: flex;
+  flex-direction: row;
+}
+
+.maincombact {
+  height: 135px;
+  width: 150px;
+  margin: 5px;
+  background-color: black;
+  border: white solid 3px;
+}
+
+.combactbtns {
+  margin: 10px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: green;
+  padding: 10px;
+  align-content: baseline;
+  font-family: "MONSTER", monospace;
+}
+
+.logul {
+  font-size: small;
+  color: green;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* For horizontal layout (optional) */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Spacing between items */
+  padding: 10px;
+}
+
+.actionsandstats {
+  font-size: small;
+  height: 130px;
+  width: 180px;
+  color: green;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.ulinv {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  color: green;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* For horizontal layout (optional) */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Spacing between items */
+  padding: 10px;
+  align-items: baseline;
+}
